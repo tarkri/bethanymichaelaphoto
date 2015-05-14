@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+//HOMEPAGE
+Route::get('/', 'PagesController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('admin', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
