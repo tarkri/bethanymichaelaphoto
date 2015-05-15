@@ -7,7 +7,7 @@
 @stop
 
 @section('scripts')
-<script type="text/javascript" src="{{ URL::asset('js/okvideo/src/okvideo.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('js/okvideo.js') }}"></script>
 <script>
 	$('document').ready(function(){
 		$(function(){
