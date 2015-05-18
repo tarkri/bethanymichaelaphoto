@@ -25,7 +25,24 @@ class PagesController extends Controller {
 	
 	
 		/*DISPLAY PAGE*/
-		return view('index');
+		return view('pages.home');
+	
+	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display About
+	  *
+	  **/
+	public function about()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.about');
 	
 	}
 

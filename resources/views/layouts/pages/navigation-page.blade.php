@@ -2,7 +2,7 @@
 <div class="mobile-capture visible-xs visible-sm visible-md">
 	<a href="#">Start Your Adventure</a>
 </div>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="{{ URL::to('/') }}"><img src="{{ URL::to('img/logo.png') }}" class="logo" alt="Bethany Michaela Photography" /></a>

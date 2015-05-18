@@ -2,7 +2,7 @@
 	
 @section('content')
 	
-	<div class="matte" style="display:block;width:100%;height:100%;min-height:100%; min-width:100%; background:rgba(0, 0, 0, .6);z-index:9999;"></div>
+	<div class="matte" style="display:block;width:100%;height:200%;min-height:200%; min-width:100%; background:rgba(0, 0, 0, .6);z-index:9999;"></div>
 	
 @stop
 

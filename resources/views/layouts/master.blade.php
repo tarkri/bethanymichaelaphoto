@@ -14,8 +14,15 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ URL::asset('css/bootstrap.css') }}" rel="stylesheet">
-
-
+	
+	<!-- IE9 Support of Gradient -->
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->	
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,8 +33,13 @@
   </head>
 
   <body>
-
-    @include('layouts.pages.navigation')
+    {{-- ALTERNATE TO WHITE NAV WHEN SUBPAGE --}}
+    @if(URL::current() == URL::to('/'))
+    	@include('layouts.pages.navigation')
+    @else
+    	@include('layouts.pages.navigation-page')
+    @endif
+   
     
     
     @yield('content')

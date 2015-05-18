@@ -13,7 +13,11 @@
 
 //HOMEPAGE
 Route::get('/', 'PagesController@index');
+//ABOUT PAGE
+Route::get('about', 'PagesController@about');
 
+
+//ADMIN LOGIN
 Route::get('admin', 'HomeController@index');
 
 Route::controllers([
