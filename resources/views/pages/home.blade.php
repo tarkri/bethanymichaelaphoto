@@ -10,9 +10,16 @@
 <script type="text/javascript" src="{{ URL::asset('js/okvideo.js') }}"></script>
 <script>
 	$('document').ready(function(){
-		$(function(){
-          $.okvideo({ source: 'https://vimeo.com/102795504', volume : 0 }) 
-        });
+		
+		
+		if($(window).width() > 800) {
+			$(function(){
+	          $.okvideo({ 
+		          			source: 'https://vimeo.com/102795504', 
+		          			volume : 0
+	          			}) 
+	        });
+		}
        
        $('.matte').css({
 	     width : $(window).width(),

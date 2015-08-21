@@ -12,12 +12,12 @@
       
       <ul class="nav navbar-nav">
       	<li class="visible-xs"><a href="#">Homepage</a></li>
-        <li><a href="#">Case Studies</a></li>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">Weddings</a></li>
-        <li><a href="#">Portraits</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="{{ URL::to('about') }}">About</a></li>
+        <li class="{{ NavIsActive('case-studies') }}"><a href="#">Case Studies</a></li>
+        <li class="{{ NavIsActive('articles') }}"><a href="#">Articles</a></li>
+        <li class="{{ NavIsActive('weddings') }}"><a href="#">Weddings</a></li>
+        <li class="{{ NavIsActive('portraits') }}"><a href="#">Portraits</a></li>
+        <li class="{{ NavIsActive('destinations') }}"><a href="#">Destinations</a></li>
+        <li class="{{ NavIsActive('about') }}"><a href="{{ URL::to('about') }}">About</a></li>
       </ul>
      <div class="navbar-form navbar-right hidden-md hidden-xs hidden-sm">
      	 <a href="" class="btn btn-primary">Start Your Adventure</a>
