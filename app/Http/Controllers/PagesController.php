@@ -45,5 +45,89 @@ class PagesController extends Controller {
 		return view('pages.about');
 	
 	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display Case Studies
+	  *
+	  **/
+	public function caseStudies()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.case-studies');
+	
+	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display Articles Page
+	  *
+	  **/
+	public function articles()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.articles');
+	
+	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display Weddings
+	  *
+	  **/
+	public function weddings()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.weddings');
+	
+	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display Portraits
+	  *
+	  **/
+	public function portraits()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.portraits');
+	
+	}
+	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * Display Destinations
+	  *
+	  **/
+	public function destinations()
+	{
+	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.destinations');
+	}
 
 }

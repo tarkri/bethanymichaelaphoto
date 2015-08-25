@@ -33,14 +33,8 @@
   </head>
 
   <body>
-    {{-- ALTERNATE TO WHITE NAV WHEN SUBPAGE --}}
-    @if(URL::current() == URL::to('/'))
-    	@include('layouts.pages.navigation')
-    @else
-    	@include('layouts.pages.navigation-page')
-    @endif
-   
-    
+
+    @include('layouts.pages.navigation')
     
     @yield('content')
 

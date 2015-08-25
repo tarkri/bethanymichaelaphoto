@@ -20,8 +20,8 @@
 			
 			$(".jumbotron").fitVids();
 			setTimeout(function(){
-				$('#homepage iframe').animate({opacity: 1}, 1000);
-			}, 4000);
+				$('#homepage iframe').animate({opacity: 1}, 4000);
+			}, 1000);
 		});
 	</script>
 @stop

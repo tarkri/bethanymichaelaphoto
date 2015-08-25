@@ -6551,6 +6551,11 @@ button.close {
 /*===============
 GLOBAL
 ===============*/
+body {
+  background: url(../img/body-bg.jpg) top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*===============
 HEADER
 ===============*/
@@ -6602,6 +6607,18 @@ nav.navbar {
 }
 nav.navbar ul {
   text-transform: uppercase;
+}
+nav.navbar.navbar-default .active a {
+  background: none;
+  color: #5cc1ae;
+}
+nav.navbar.navbar-default .active:hover a {
+  background: none;
+  color: #40aa96;
+}
+nav.navbar.navbar-default li:hover a {
+  background: none;
+  color: #5cc1ae;
 }
 img.logo {
   width: 100%;
@@ -6657,7 +6674,7 @@ img.logo {
     margin-bottom: 0;
   }
   img.logo {
-    margin: -30px auto 0;
+    margin: -30px 0 0 0;
   }
 }
 /*===============

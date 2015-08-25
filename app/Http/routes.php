@@ -15,6 +15,18 @@
 Route::get('/', 'PagesController@index');
 //ABOUT PAGE
 Route::get('about', 'PagesController@about');
+//CASE STUDIES
+Route::get('case-studies', 'PagesController@caseStudies');
+//ARTICLES
+Route::get('articles', 'PagesController@articles');
+//WEDDINGS
+Route::get('weddings', 'PagesController@weddings');
+//PORTRAITS
+Route::get('portraits', 'PagesController@portraits');
+//DESTINATIONS
+Route::get('destinations', 'PagesController@destinations');
+//START YOUR ADVENTURE
+Route::get('start', 'StartController@index');
 
 
 //ADMIN LOGIN
