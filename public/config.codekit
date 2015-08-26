@@ -51,13 +51,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/video-bg copy.jpg": {
+	"\/img\/page-banner-about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224092,
+		"inputAbbreviatedPath": "\/img\/page-banner-about.jpg",
+		"outputAbbreviatedPath": "\/img\/page-banner-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/quote-close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2399,
+		"inputAbbreviatedPath": "\/img\/quote-close.png",
+		"outputAbbreviatedPath": "\/img\/quote-close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/quote-open.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2422,
+		"inputAbbreviatedPath": "\/img\/quote-open.png",
+		"outputAbbreviatedPath": "\/img\/quote-open.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/video-bg-old.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 335207,
-		"inputAbbreviatedPath": "\/img\/video-bg copy.jpg",
-		"outputAbbreviatedPath": "\/img\/video-bg copy.jpg",
+		"inputAbbreviatedPath": "\/img\/video-bg-old.jpg",
+		"outputAbbreviatedPath": "\/img\/video-bg-old.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

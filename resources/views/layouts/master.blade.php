@@ -37,8 +37,9 @@
     @include('layouts.pages.navigation')
     
     @yield('content')
-
-
+	
+	<div class="clearfix"></div>
+	<footer id="main"></footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
