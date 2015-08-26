@@ -62,6 +62,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/page-banner-portraits.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206928,
+		"inputAbbreviatedPath": "\/img\/page-banner-portraits.jpg",
+		"outputAbbreviatedPath": "\/img\/page-banner-portraits.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/quote-close.png": {
 		"fileType": 32768,
 		"ignore": 0,
